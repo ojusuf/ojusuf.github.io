@@ -71,13 +71,13 @@ nav.top-nav {
     border-bottom-right-radius: 5px;
 }
 nav.top-nav a:link{
-   color: inherit;
+   color: #3b322c;
 }
 nav.top-nav a:active{
-   color:inherit;
+   color:#3b322c;
 }
 nav.top-nav a:visited{
-    color:inherit;
+    color:#3b322c;
 }
 nav.top-nav a:hover{
     color: #dd614a;
