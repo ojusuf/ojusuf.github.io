@@ -70,7 +70,9 @@ nav.top-nav {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
  }
-
+ nav.top-nav a:active{
+   color:inherit;
+}
  nav.top-nav a:visited{
     color:inherit;
  }
