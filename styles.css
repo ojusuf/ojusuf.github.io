@@ -57,8 +57,20 @@ body {
     margin-left: 5%;
     border-top: 1px solid #eec170;
 }
-.labels {
 
+#about {
+   height: 600px;
+   width: 100%;
+}
+.labels {
+   font-size: 600%;
+   font-weight: 400;
+   color:#dd614a;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: #dd614a;
+   margin-top: 50px;
+   margin-left: 200px;
 }
 nav.top-nav {
     background-color: white;
@@ -130,11 +142,9 @@ nav.top-nav ul{
     max-height:100%;
 }
 
-
-
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
    nav.top-nav{
        width: 100%;
        left:0px;
    }
-}
+} */
