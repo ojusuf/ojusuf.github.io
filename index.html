@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@300&display=swap" rel="stylesheet">    
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+   <head>
+      <meta charset ="utf-8">
+      <title>Fixed Navigation Example</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="main.js"></script>
+   </head>
+   <body>
+      <nav role="navigation" class = "top-nav">
+         <ul>
+            <li nav aria-current=page tabindex=0><a href="index.html"><div id="icon"> <img src="icon.gif" alt="astronaut_icon" class = "gif"/></div></a></li>
+            <li tabindex=1><a href="#about-top">about</a></li>
+            <li tabindex=2><a href="#projects-top">projects</a></li>
+            <li tabindex=3><a href="#contact"> contact </a></li>
+            <li tabindex=4><a href="11-15-22 Resume.pdf"><u>resume</u></a></li>
+         </ul>
+      </nav>
+      <!-- <div id="icon"> <img src="icon.gif" alt="astronaut_icon"/></div> -->
+      <main>
+        <div id="hi"> 
+          <h1>Hi, my name is <br> <b>Orion Jusuf</b></h1>
+          <p><b>Biomedical and Mechanical Engineering student at Northwestern</b><br>Passionate about designing technologies that improve the lives of others.</p>
+        </div>
+        <div id="about-top">
 
-.name {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-}
-
-.namebg {
-  border-radius: 10 px;
-  border-collapse: separate; 
-  height: 50px;
-  width: 200px;
-  background-color: white;
-  margin-top: 5%;
-  margin-left: 7.5%;
-}
-
-</style>
-</head>
-<body>
-<div class="bg">
-    <div class="namebg">
-        <h1 class="name">Orion Jusuf</h1>
-    </div>
-    <iframe src= "11-15-22 Resume.pdf" width="100%" height="1000px">
-    </iframe>
-    
-</div>
-</body>
+        </div>
+         <p id= "alert">This page is under construction. Come back soon to see more!</p>
+      </main>
+   </body>
 </html>
