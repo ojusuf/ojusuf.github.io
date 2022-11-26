@@ -126,4 +126,12 @@ nav.top-nav ul{
     max-width:100%;
     max-height:100%;
 }
- 
+
+
+
+@media only screen and (max-device-width: 480px) {
+   nav.top-nav{
+       width: 100%;
+       left:0px;
+   }
+}
