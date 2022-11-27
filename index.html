@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
    <head>
       <meta charset ="utf-8">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <title>Orion Jusuf</title>
       <link rel="stylesheet" href="styles.css">
       <link rel="icon" href="iconsm.png" type="image/icon type">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
       <script src="main.js"></script>
    </head>
    <body>
       <nav role="navigation" class = "top-nav">
          <ul>
-            <li nav aria-current=page tabindex=0><a href="index.html"><div id="icon"> <img src="icon.gif" alt="astronaut_icon" class = "gif"/></div></a></li>
-            <li tabindex=1><a href="#about-top">about</a></li>
-            <li tabindex=2><a href="#projects-top">projects</a></li>
-            <li tabindex=3><a href="#contact"> contact </a></li>
-            <li tabindex=4><a href="11-15-22 Resume.pdf"><u>resume</u></a></li>
+            <li nav aria-current=page><a href="index.html"><div id="icon"> <img src="icon.gif" alt="astronaut_icon" class = "gif"/></div></a></li>
+            <li><a href="#projects-top">projects</a></li>
+            <li><a href="#about-top">about</a></li>
+            <li><a href="#contacts-top"> contact </a></li>
+            <li><a href="11-15-22 Resume.pdf"><u>resume</u></a></li>
          </ul>
       </nav>
       <!-- <div id="icon"> <img src="icon.gif" alt="astronaut_icon"/></div> -->
@@ -24,8 +28,123 @@
           <h1>Hi, my name is <br> <b>Orion Jusuf</b></h1>
           <p><b>Biomedical and Mechanical Engineering student at Northwestern</b><br>Passionate about designing technologies that improve the lives of others.</p>
         </div>
-        <div id="about-top"></div>
-        <div id="about">
+        <div id="projects-top" class = "divider"></div>
+        <div id="projects" class = "fill">
+         <h2 class="labels">projects</h2>
+         <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 5</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 6</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 7</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 8</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="icon.gif" class="d-block w-100" alt="icon.gif"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 9</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+        <div id="about-top" class = "divider"></div>
+        <div id="about" class = "fill">
          <h2 class="labels">about</h2>
         </div>
          <p id= "alert">This page is under construction. Come back soon to see more!</p>
