@@ -101,7 +101,7 @@ nav.top-nav {
     overflow: hidden;
     width: 700px;
     height: 75px;
-    z-index: 5;
+    z-index: 300;
     text-align: center;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -198,25 +198,26 @@ background-color: rgba(198, 135, 23, 0.7);
 .cover {
 width: 600px;
 height: 400px;
-z-index: -1;
+z-index: 1;
 }
 
 .image-caption {
-width: 100%;
-height: 100%;
-background-color: rgba(59,50,44, 0.5);
+width: 600px;
+height: 400px;
+background-color: rgba(59,50,44, 0.6);
 opacity: 0;
-margin-top:-400px;
-z-index: 7;
+margin-top:-428px;
+position: relative;
+z-index: 150;
 transition: all 300ms ease-in-out;
-/* -webkit-transition: all 300ms ease-in-out;
+-webkit-transition: all 300ms ease-in-out;
 -moz-transition: all 300ms ease-in-out;
 -o-transition: all 300ms ease-in-out;
--ms-transition: all 300ms ease-in-out; */
+-ms-transition: all 300ms ease-in-out;
 }
 
 .image-caption h1 {
-padding: 250px 0px 10px 0px;
+padding: 200px 0px 10px 0px;
 text-align: center;
 margin-left: -15px;
 font-size: 36px;
@@ -231,7 +232,4 @@ font-size: x-large;
 }
 .image-container:hover .image-caption {
     opacity: 1;
-}
-.image-container:hover .cover {
-    transform:scale3d(0.9);
 }
