@@ -75,6 +75,13 @@ a:active{
    height: 750px;
    width: 100%;
 }
+#about {
+    background-image: url("background-top-right.jpeg");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-position-y:top;
+}
 .labels {
    font-size: 500%;
    font-weight: 400;
@@ -240,7 +247,7 @@ font-size: x-large;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: x-large;
-    margin-top: -20px;
+    margin-top: -50px;
     margin-left: 250px;
 }
 .contact-item {
