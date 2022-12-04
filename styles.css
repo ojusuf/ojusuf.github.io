@@ -307,9 +307,9 @@ font-size: x-large;
 
 .progress-bar {
     width: 100%;
-    height:25px;
+    height:36px;
     background-color: #eec170;
-    padding: 0px;
+    padding: 0.5px;
     border-radius: 3px;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
     margin-bottom: 20px;
@@ -317,14 +317,17 @@ font-size: x-large;
 
 .progress-bar-fill {
     display: block;
-    height: 22px;
+    height: 30px;
     color: white;
     background-color: #4464ad;
     border-radius: 3px;
     transition: width 500ms ease-in-out;
+    margin-left: 3px;
 }
 .progress-bar-fill p{
     margin-left: 10px;
+    line-height: 30px;
+    margin-top: 3px;
 }
 #BS {
     width: 85%
