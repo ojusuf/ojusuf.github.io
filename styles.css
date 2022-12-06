@@ -415,14 +415,22 @@ ul {
 }
 #skills {
     padding-top: 50px;
+    
 }
 
 #poster-container{
     width: 100%;
     height:fit-content;
     margin-bottom: 50px;
+    background-color: rgba(198, 135, 23, 0.2);
 }
 #poster-pdf{
     margin-left: 5%;
     width: 90%;
+}
+#under{
+    width: 500px;
+    margin-left:75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
