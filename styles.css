@@ -8,6 +8,9 @@ body {
     background-position-y:5px;
     margin-left: -10px;
 }
+#bt {
+    background-size: 60%;
+}
 a:link{
     text-decoration: none;
 }
@@ -85,7 +88,7 @@ a:active{
 }
 #about {
     background-image: url("background-top-right.jpeg");
-    background-size: 40%;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position-x:right;
     background-position-y:top;
@@ -323,7 +326,8 @@ font-size: x-large;
     padding-bottom: 100px;
 }
 #education {
-    padding-top: 25px;
+    padding-top: 0px;
+    margin-top: -100px;
 }
 #education h3{
     font-weight: 400;
